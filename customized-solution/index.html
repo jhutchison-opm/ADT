@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment Decision Tool</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/css/uswds.min.css"
+      integrity="sha512-wo5nlNcQ4YO3nlnHXelbf7SzlDqQ9/7IWOgojGxhDVJL7OE71tFwmxe0oIIX9xhEg6X/4Fonin1zns6EqbvO1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/js/uswds.min.js"
+      integrity="sha512-knvajeM7J+9Z26Qyixt5bgFe2IyRT+z8L1iE3ClJ9mfORTnUhYk3PFlqlpbTd+IkHyQ7YXcY75v9QFoYJ2z7mw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="usa-section">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="desktop:grid-col-3"></div>
+            <div class="desktop:grid-col-9">
+              <h1>
+                Step 2: Provide Further Information: Select Situational Factors
+                for customized Solution
+              </h1>
+              <form :action="formAction" class="usa-form usa-form--large">
+                <fieldset class="usa-fieldset margin-top-4">
+                  <legend class="margin-top-0">
+                    How much time do you have to develop and implement your own
+                    assessment?
+                    <abbr title="required" class="usa-hint usa-hint--required"
+                      >*</abbr
+                    >
+                  </legend>
+                  <div
+                    v-for="option in questionAOptions"
+                    :key="option.value"
+                    class="usa-radio"
+                  >
+                    <input
+                      class="usa-radio__input usa-radio__input--tile"
+                      type="radio"
+                      name="questionA"
+                      :id="'questionA-' + option.value"
+                      :value="option.value"
+                      v-model="formValues.questionA"
+                      required
+                    />
+                    <label
+                      class="usa-radio__label"
+                      :for="'questionA-' + option.value"
+                      >{{option.label}}</label
+                    >
+                  </div>
+                </fieldset>
+                <fieldset class="usa-fieldset margin-top-4">
+                  <legend class="margin-top-0">
+                    What level of technical expertise will be available for
+                    developing and validating an assessment measure?
+                    <abbr title="required" class="usa-hint usa-hint--required"
+                      >*</abbr
+                    >
+                  </legend>
+                  <div
+                    v-for="option in questionBOptions"
+                    :key="option.value"
+                    class="usa-radio"
+                  >
+                    <input
+                      class="usa-radio__input usa-radio__input--tile"
+                      type="radio"
+                      name="questionB"
+                      :id="'questionB-' + option.value"
+                      :value="option.value"
+                      v-model="formValues.questionB"
+                      required
+                    />
+                    <label
+                      class="usa-radio__label"
+                      :for="'questionB-' + option.value"
+                      >{{option.label}}</label
+                    >
+                  </div>
+                </fieldset>
+                <fieldset class="usa-fieldset margin-top-4">
+                  <legend class="margin-top-0">
+                    What is the estimated number of applicants per vacancy?
+                    <abbr title="required" class="usa-hint usa-hint--required"
+                      >*</abbr
+                    >
+                  </legend>
+                  <div
+                    v-for="option in questionCOptions"
+                    :key="option.value"
+                    class="usa-radio"
+                  >
+                    <input
+                      class="usa-radio__input usa-radio__input--tile"
+                      type="radio"
+                      name="questionC"
+                      :id="'questionC-' + option.value"
+                      :value="option.value"
+                      v-model="formValues.questionC"
+                      required
+                    />
+                    <label
+                      class="usa-radio__label"
+                      :for="'questionC-' + option.value"
+                      >{{option.label}}</label
+                    >
+                  </div>
+                </fieldset>
+                <fieldset class="usa-fieldset margin-top-4">
+                  <legend class="margin-top-0">
+                    What level of resources will be available to administer the
+                    assessment program (in terms of the budget, staff hours,
+                    equipment, facilities, IT support, etc.)?
+                    <abbr title="required" class="usa-hint usa-hint--required"
+                      >*</abbr
+                    >
+                  </legend>
+                  <div
+                    v-for="option in questionDOptions"
+                    :key="option.value"
+                    class="usa-radio"
+                  >
+                    <input
+                      class="usa-radio__input usa-radio__input--tile"
+                      type="radio"
+                      name="questionD"
+                      :id="'questionD-' + option.value"
+                      :value="option.value"
+                      v-model="formValues.questionD"
+                      required
+                    />
+                    <label
+                      class="usa-radio__label"
+                      :for="'questionD-' + option.value"
+                      >{{option.label}}</label
+                    >
+                  </div>
+                </fieldset>
+                <div class="display-flex">
+                  <button type="submit" class="usa-button margin-left-auto">
+                    Continue
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {
+            formValues: {
+              questionA: null,
+              questionB: null,
+              questionC: null,
+              questionD: null,
+            },
+            questionAOptions: [
+              {
+                label: "Less than 3 months",
+                value: "low",
+              },
+              {
+                label: "3-9 Months",
+                value: "medium",
+              },
+              {
+                label: "More than 9 months",
+                value: "high",
+              },
+            ],
+            questionBOptions: [
+              {
+                label:
+                  "Low (Limited knowledge of assessment methods, principles, and legal standards.)",
+                value: "low",
+              },
+              {
+                label:
+                  "Medium (Moderate knowledge of assessment development methods, principle, and legal standards)",
+                value: "medium",
+              },
+              {
+                label:
+                  "High (Extensive knowledge of assessment development methods, principle, and legal standards)",
+                value: "high",
+              },
+            ],
+            questionCOptions: [
+              {
+                label: "Less than 50",
+                value: "low",
+              },
+              {
+                label: "50-100",
+                value: "medium",
+              },
+              {
+                label: "More than 100",
+                value: "high",
+              },
+            ],
+            questionDOptions: [
+              {
+                label: "Low",
+                value: "low",
+              },
+              {
+                label: "Medium",
+                value: "medium",
+              },
+              {
+                label: "High",
+                value: "high",
+              },
+            ],
+          };
+        },
+        computed: {
+          formAction() {
+            return "/initial-overview";
+          },
+        },
+      }).mount("#app");
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/js/uswds-init.min.js"
+      integrity="sha512-bXbQXDDedg6Yq2zDO+94e2vhkI3yDQd3Qj3VyGMa958ZudBTkluWOBuB+QXTGxzuaGY3Yd88zZ7IbG5iccGNeA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

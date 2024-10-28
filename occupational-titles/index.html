@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment Decision Tool</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/css/uswds.min.css"
+      integrity="sha512-wo5nlNcQ4YO3nlnHXelbf7SzlDqQ9/7IWOgojGxhDVJL7OE71tFwmxe0oIIX9xhEg6X/4Fonin1zns6EqbvO1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/js/uswds.min.js"
+      integrity="sha512-knvajeM7J+9Z26Qyixt5bgFe2IyRT+z8L1iE3ClJ9mfORTnUhYk3PFlqlpbTd+IkHyQ7YXcY75v9QFoYJ2z7mw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="usa-section">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="desktop:grid-col-3"></div>
+            <div class="desktop:grid-col-9">
+              <h1>Step 2: Provide Further Information: Select Occupation</h1>
+
+              <p class="usa-prose">
+                OPM has conducted occupational studies covering the jobs listed
+                below. Please use the list below to select your job of interest
+                by occupational series title or number. If the occupation is not
+                listed, you may return to the previous page to select
+                competencies by occupational group.
+              </p>
+              <div class="display-flex flex-justify margin-top-4">
+                <div>
+                  <label class="usa-sr-only" for="example-input-prefix"
+                    >Sort</label
+                  >
+                  <div class="usa-input-group margin-top-0">
+                    <div class="usa-input-prefix" aria-hidden="true">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="1.5em"
+                        height="1.5em"
+                        viewBox="0 0 24 24"
+                      >
+                        <path
+                          fill="currentColor"
+                          d="m19.6 21l-6.3-6.3q-.75.6-1.725.95T9.5 16q-2.725 0-4.612-1.888T3 9.5t1.888-4.612T9.5 3t4.613 1.888T16 9.5q0 1.1-.35 2.075T14.7 13.3l6.3 6.3zM9.5 14q1.875 0 3.188-1.312T14 9.5t-1.312-3.187T9.5 5T6.313 6.313T5 9.5t1.313 3.188T9.5 14"
+                        />
+                      </svg>
+                    </div>
+                    <input
+                      id="example-input-prefix"
+                      class="usa-input"
+                      type="search"
+                      v-model="search"
+                    />
+                  </div>
+                </div>
+                <div class="display-flex flex-align-center">
+                  <label
+                    class="usa-label margin-top-0 margin-right-2"
+                    for="sort"
+                    style="flex-shrink: 0"
+                    >Sort by:</label
+                  >
+                  <select
+                    class="usa-select margin-top-0"
+                    id="sort"
+                    v-model="sortBy"
+                  >
+                    <option
+                      v-for="(sortOption, key) in sortOptions"
+                      :key="sortOption.number"
+                      :value="key"
+                    >
+                      {{sortOption.label}}
+                    </option>
+                  </select>
+                </div>
+              </div>
+              <form :action="formAction" class="margin-top-4">
+                <table class="usa-table usa-table--borderless width-full">
+                  <caption>
+                    Select occupation
+                  </caption>
+                  <thead>
+                    <tr>
+                      <th></th>
+                      <th>Occupation Number</th>
+                      <th>Occupation Title</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr
+                      v-for="occupation in filteredOccupationalList"
+                      :key="occupation.number"
+                      :aria-labelledby="'title-' + occupation.number"
+                    >
+                      <td>
+                        <div class="usa-radio">
+                          <label>
+                            <input
+                              class="usa-radio__input"
+                              type="radio"
+                              name="occupation"
+                              :id="'occupation-' + occupation.number"
+                              :value="occupation.number"
+                              v-model="formValues.choice"
+                              aria-label="Select"
+                              :aria-labelledby="'title-' + occupation.number"
+                              required
+                            />
+                            <div class="usa-radio__label"></div>
+                          </label>
+                        </div>
+                      </td>
+                      <td>{{occupation.number}}</td>
+                      <td :id="'title-' + occupation.number">
+                        {{occupation.title}}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+
+                <div class="display-flex">
+                  <button type="submit" class="usa-button margin-left-auto">
+                    Continue
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {
+            search: "",
+            sortBy: 0,
+            sortOptions: [
+              {
+                label: "Number (Asc)",
+                sortKey: "number",
+                sortDir: "asc",
+              },
+              {
+                label: "Number (Desc)",
+                sortKey: "number",
+                sortDir: "desc",
+              },
+              {
+                label: "Title (Asc)",
+                sortKey: "title",
+                sortDir: "asc",
+              },
+              {
+                label: "Title (Desc)",
+                sortKey: "title",
+                sortDir: "desc",
+              },
+            ],
+            formValues: {
+              choice: null,
+            },
+            occupationList: [
+              {
+                title: "Bond Sales Protection",
+                number: "0011",
+              },
+              {
+                title: "Safety & Occupational Health Management",
+                number: "0018",
+              },
+              {
+                title: "Safety Technician",
+                number: "0019",
+              },
+              {
+                title: "Community Planning",
+                number: "0020",
+              },
+              {
+                title: "Outdoor Recreation Planning",
+                number: "0021",
+              },
+            ],
+          };
+        },
+        computed: {
+          filteredOccupationalList() {
+            let lowerCaseSearch = this.search.toLowerCase();
+            let sortChoice = this.sortOptions[this.sortBy];
+
+            let listCopy = [...this.occupationList];
+
+            if (this.search) {
+              listCopy = listCopy.filter((occ) => {
+                return (
+                  occ.number.startsWith(lowerCaseSearch) ||
+                  occ.title.toLowerCase().startsWith(lowerCaseSearch)
+                );
+              });
+            }
+            return listCopy.sort((a, b) => {
+              let valueA = a[sortChoice.sortKey];
+              let valueB = b[sortChoice.sortKey];
+
+              if (valueA < valueB) return sortChoice.sortDir === "asc" ? -1 : 1;
+              if (valueA > valueB) return sortChoice.sortDir === "asc" ? 1 : -1;
+              return 0;
+            });
+          },
+          formAction() {
+            return "/competency-list";
+          },
+        },
+      }).mount("#app");
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/js/uswds-init.min.js"
+      integrity="sha512-bXbQXDDedg6Yq2zDO+94e2vhkI3yDQd3Qj3VyGMa958ZudBTkluWOBuB+QXTGxzuaGY3Yd88zZ7IbG5iccGNeA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>

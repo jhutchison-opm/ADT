@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assessment Decision Tool</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/css/uswds.min.css"
+      integrity="sha512-wo5nlNcQ4YO3nlnHXelbf7SzlDqQ9/7IWOgojGxhDVJL7OE71tFwmxe0oIIX9xhEg6X/4Fonin1zns6EqbvO1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/js/uswds.min.js"
+      integrity="sha512-knvajeM7J+9Z26Qyixt5bgFe2IyRT+z8L1iE3ClJ9mfORTnUhYk3PFlqlpbTd+IkHyQ7YXcY75v9QFoYJ2z7mw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="usa-section">
+        <div class="grid-container">
+          <div class="grid-row grid-gap">
+            <div class="desktop:grid-col-3"></div>
+            <div class="desktop:grid-col-9">
+              <h1>My Assessment Strategy: Initial Overview</h1>
+              <div class="usa-prose">
+                <p>
+                  This page provides an initial overview of assessment methods
+                  with potential for measuring the competencies you indicated
+                  were relevant to your job of interest. As you will see, most
+                  of the information provided on this page is presented in
+                  tables. You can sort data by using the dropdown menu directly
+                  above certain tables. Upon reviewing this information, you can
+                  narrow the list of assessment methods to retain only those you
+                  would like to give further consideration and generate a
+                  detailed final report. The final report will include the
+                  information presented below along with additional details on
+                  the assessment methods you believe may best meet your needs.
+                </p>
+
+                <h2>Competency Information</h2>
+                <p>
+                  At the core of any assessment strategy is the set of
+                  competencies you aim to measure. The following table
+                  summarizes the competencies you indicated were required for
+                  your job of interest.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {},
+      }).mount("#app");
+    </script>
+
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/uswds/3.9.0/js/uswds-init.min.js"
+      integrity="sha512-bXbQXDDedg6Yq2zDO+94e2vhkI3yDQd3Qj3VyGMa958ZudBTkluWOBuB+QXTGxzuaGY3Yd88zZ7IbG5iccGNeA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+  </body>
+</html>
