@@ -106,10 +106,10 @@
         computed: {
           formAction() {
             return this.formValues.choice === "competencies"
-              ? "/occupational-group"
+              ? "./../occupational-group"
               : this.formValues.choice === "title"
-              ? "/occupational-titles"
-              : "/supervisors";
+              ? "./../occupational-titles"
+              : "./../supervisors";
           },
         },
       }).mount("#app");

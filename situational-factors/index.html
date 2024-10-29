@@ -109,10 +109,10 @@
         computed: {
           formAction() {
             return this.formValues.choice === "develop"
-              ? "/customized-solution"
+              ? "./../customized-solution"
               : this.formValues.choice === "purchase"
-              ? "/purchased-solution"
-              : "/all-factors";
+              ? "./../purchased-solution"
+              : "./../all-factors";
           },
         },
       }).mount("#app");
