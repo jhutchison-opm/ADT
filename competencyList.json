@@ -1,0 +1,1627 @@
+[
+  {
+    "name": "Accessibility",
+    "definition": "Knowledge of tools, equipment, and technologies used to help individuals with disabilities use computer equipment and software.",
+    "category": ""
+  },
+  {
+    "name": "Accident Investigation",
+    "definition": "Knowledge of guidelines, regulations, and procedures associated with an accident investigation including preservation of accident scene, root cause analysis, and evidence detection and handling.",
+    "category": ""
+  },
+  {
+    "name": "Accountability",
+    "definition": "Holds self and others accountable for measurable high-quality, timely, and cost-effective results. Determines objectives, sets priorities, and delegates work. Accepts responsibility for mistakes. Complies with established control systems and rules.",
+    "category": ""
+  },
+  {
+    "name": "Accounting",
+    "definition": "Knowledge of traditional accounting practices including accrual, obligations, and costs methods.",
+    "category": ""
+  },
+  {
+    "name": "Accounting Operations",
+    "definition": "Knowledge of general ledger accounting and the control/subsidiary account relationships and reconciliation techniques, including accounts receivable, accounts payable, and disbursing officer's accountability.",
+    "category": ""
+  },
+  {
+    "name": "Acquisition Strategy",
+    "definition": "Knowledge of the principles and methods for developing an integrated acquisition management plan that describes the business, technical, and support strategies, including the relationship between the acquisition phases, work efforts, and key program events (for example, decision points, contract awards, test activities).",
+    "category": ""
+  },
+  {
+    "name": "Administration and Management",
+    "definition": "Knowledge of planning, coordination, and execution of business functions, resource allocation, and production.",
+    "category": ""
+  },
+  {
+    "name": "Administrative Law",
+    "definition": "Knowledge of state and Federal administrative laws, including procedures, regulations, guidelines, and precedents related to case preparation and settlements.",
+    "category": ""
+  },
+  {
+    "name": "Aerospace Engineering",
+    "definition": "Knowledge of the concepts, principles, and theories of aerodynamics or space environments related to the design, development, testing, analysis, application, and utilization of aerospace and aeronautical devices, vehicles, systems, and equipment.",
+    "category": ""
+  },
+  {
+    "name": "Agility",
+    "definition": "Bends, stretches, twists, or reaches out with the body, arms, or legs.",
+    "category": ""
+  },
+  {
+    "name": "Aircraft Maintenance",
+    "definition": "Knowledge of aircraft engines, parts, and systems, including their designs, uses, repair, and maintenance.",
+    "category": ""
+  },
+  {
+    "name": "Ammunition and Explosives",
+    "definition": "Knowledge of ammunition and explosives and their uses, interactions, dangers, production, handling, storage, and disposal.",
+    "category": ""
+  },
+  {
+    "name": "Animal Husbandry",
+    "definition": "Knowledge of the care and handling of animals, including feeding, controlling, restraint, health, and reproduction.",
+    "category": ""
+  },
+  {
+    "name": "Applies Technology to Tasks",
+    "definition": "Selects and understands procedures, machines, or tools that will produce the desired results; identifies or solves problems in machines, computers, or other technologies as they are related to performing tasks.",
+    "category": ""
+  },
+  {
+    "name": "Architecture",
+    "definition": "Knowledge of the concepts, principles, theories, and practices used in the planning, design, construction, and maintenance of buildings or other structures, taking into consideration aesthetic and functional concerns.",
+    "category": ""
+  },
+  {
+    "name": "Arithmetic",
+    "definition": "Performs computations such as addition, subtraction, multiplication, and division correctly using whole numbers, fractions, decimals, and percentages.",
+    "category": ""
+  },
+  {
+    "name": "Arithmetic/Mathematical Reasoning",
+    "definition": "Performs computations such as addition, subtraction, multiplication, and division correctly; solves practical problems by choosing appropriately from a variety of mathematical techniques such as formulas and percentages.",
+    "category": ""
+  },
+  {
+    "name": "Arrest",
+    "definition": "Knowledge of the laws, principles, and procedures used in apprehending a criminal suspect, including polices for pursuit and proper use of force and capture such as Miranda rights.",
+    "category": ""
+  },
+  {
+    "name": "Artificial Intelligence",
+    "definition": "Knowledge of the principles, methods, and tools used to design systems that perform human intelligence functions.",
+    "category": ""
+  },
+  {
+    "name": "Astronomy",
+    "definition": "Knowledge of the concepts, principles, and theories of the physical processes leading to the emission of electromagnetic radiation or particles from celestial bodies, the measurement and physical characteristics of celestial bodies, including cosmic microwave background, submillimeter technology, galaxies, star formations, and planetary science.",
+    "category": ""
+  },
+  {
+    "name": "Attention to Detail",
+    "definition": "Is thorough when performing work and conscientious about attending to detail.",
+    "category": ""
+  },
+  {
+    "name": "Audit Reporting",
+    "definition": "Knowledge of the principles, practices, and techniques used to report audit findings (criteria, condition, cause, effect, and recommendation).",
+    "category": ""
+  },
+  {
+    "name": "Auditing",
+    "definition": "Knowledge of generally accepted auditing standards and procedures for conducting financial and compliance, economy and efficiency, and program audits.",
+    "category": ""
+  },
+  {
+    "name": "Biology",
+    "definition": "Knowledge of the environment, plant and animal living tissue, cells, organisms, and entities, including their functions, interdependencies and interactions with each other and the environment.",
+    "category": ""
+  },
+  {
+    "name": "Botany",
+    "definition": "Knowledge of the concepts, principles, and theories of plants, including structures and functions, classification, taxonomy, plant communities, distribution, habitat requirements, life histories, reproduction, conservation, and care of plant species.",
+    "category": ""
+  },
+  {
+    "name": "Budget Administration",
+    "definition": "Knowledge of the principles and practices of budget administration and analysis; including preparing, justifying, reporting on, and executing the budget; and the relationships among program, budget, accounting, and reporting systems.",
+    "category": ""
+  },
+  {
+    "name": "Building and Construction",
+    "definition": "Knowledge of materials, methods, and the tools to construct objects, structures, and buildings.",
+    "category": ""
+  },
+  {
+    "name": "Business Process Reengineering",
+    "definition": "Knowledge of methods, metrics, tools, and techniques of Business Process Reengineering.",
+    "category": ""
+  },
+  {
+    "name": "Capacity Management",
+    "definition": "Knowledge of the principles and methods for monitoring, estimating, or reporting actual performance or the performance capability of information systems or components.",
+    "category": ""
+  },
+  {
+    "name": "Capital Planning and Investment Assessment",
+    "definition": "Knowledge of the principles and methods of capital investment analysis or business case analysis, including return on investment analysis.",
+    "category": ""
+  },
+  {
+    "name": "Carpentry/Woodworking",
+    "definition": "Knowledge of materials, methods, and the appropriate tools to construct, install, finish, or repair wooden objects or structures.",
+    "category": ""
+  },
+  {
+    "name": "Cartography",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the research, design, development, or revision of maps, charts, and related cartographic products, and photogrammatic and cartographic processing.",
+    "category": ""
+  },
+  {
+    "name": "Change Management",
+    "definition": "Knowledge of change management principles, strategies, and techniques required for effectively planning, implementing, and evaluating change in the organization.",
+    "category": ""
+  },
+  {
+    "name": "Chemical Engineering",
+    "definition": "Knowledge of the concepts, principles, and theories related to the chemical composition or physical characteristics of materials for the design, construction, operation, and improvement of processes or systems.",
+    "category": ""
+  },
+  {
+    "name": "Chemistry (*)",
+    "definition": "Knowledge of the concepts, principles, and theories of the composition, structure, and properties of substances, and of the chemical processes and transformations, including uses of chemicals and their interactions, danger signs, production techniques, and disposal methods.",
+    "category": ""
+  },
+  {
+    "name": "Chemistry (†)",
+    "definition": "Knowledge of chemicals, including hazardous materials, and their uses, interactions, dangers, production, storage, and disposal.",
+    "category": ""
+  },
+  {
+    "name": "Civil Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods required to plan, design, construct, operate, and maintain facilities such as buildings, transportation systems, water and sanitary systems, and other public works systems.",
+    "category": ""
+  },
+  {
+    "name": "Classification",
+    "definition": "Knowledge of classification concepts, principles, and practices related to structuring organizations and positions and determining the appropriate pay system, occupational grouping, title, and pay level of positions.",
+    "category": ""
+  },
+  {
+    "name": "Clerical",
+    "definition": "Knowledge of filing, typing, entering data, maintaining records, taking shorthand, and using and completing forms.",
+    "category": ""
+  },
+  {
+    "name": "Client Engagement/Change Management",
+    "definition": "Knowledge of the impact of change on people, processes, procedures, leadership, and organizational culture; knowledge of change management principles, strategies, and techniques required for effectively planning, implementing, and evaluating change in the organization.",
+    "category": ""
+  },
+  {
+    "name": "Communications and Media",
+    "definition": "Knowledge of the production, communication and dissemination of information and ideas to inform and entertain via written, oral, and visual media.",
+    "category": ""
+  },
+  {
+    "name": "Communications Security Management",
+    "definition": "Knowledge of the principles, policies, and procedures involved in ensuring the security of communications services and data, and in maintaining the communications environment on which it resides.",
+    "category": ""
+  },
+  {
+    "name": "Compensation",
+    "definition": "Knowledge of compensation concepts, principles, and practices, including pay and leave administration and compensation flexibilities.",
+    "category": ""
+  },
+  {
+    "name": "Compliance",
+    "definition": "Knowledge of procedures for assessing, evaluating, and monitoring programs or projects for compliance with Federal laws, regulations, and guidance.",
+    "category": ""
+  },
+  {
+    "name": "Compliance Inspection",
+    "definition": "Knowledge of the guidelines, regulations, and procedures associated with compliance inquiries, including application of compliance rules and criteria and ability to make appropriate decisions and issue citations, fines, or orders.",
+    "category": ""
+  },
+  {
+    "name": "Computer Forensics",
+    "definition": "Knowledge of tools and techniques used in data recovery and preservation of electronic evidence.",
+    "category": ""
+  },
+  {
+    "name": "Computer Languages",
+    "definition": "Knowledge of computer languages and their applications to enable a system to perform specific functions.",
+    "category": ""
+  },
+  {
+    "name": "Computer Network Defense",
+    "definition": "Knowledge of defensive measures to detect, respond, and protect information, information systems, and networks from threats.",
+    "category": ""
+  },
+  {
+    "name": "Computer Skills",
+    "definition": "Uses computers, software applications, databases, and automated systems to accomplish work.",
+    "category": ""
+  },
+  {
+    "name": "Computers",
+    "definition": "Knowledge of circuit boards, processors, chips, and computer hardware and software, including applications and programming.",
+    "category": ""
+  },
+  {
+    "name": "Computers and Electronics",
+    "definition": "Knowledge of electric circuit boards, processors, chips, and computer hardware and software, including applications and programming.",
+    "category": ""
+  },
+  {
+    "name": "Configuration Management",
+    "definition": "Knowledge of the principles and methods for planning or managing the implementation, update, or integration of information systems components.",
+    "category": ""
+  },
+  {
+    "name": "Conflict Management (*)",
+    "definition": "Manages and resolves conflicts, grievances, confrontations, or disagreements in a constructive manner to minimize negative personal impact.",
+    "category": ""
+  },
+  {
+    "name": "Conflict Management (‡)",
+    "definition": "Encourages creative tension and differences of opinions.  Anticipates and takes steps to prevent counter-productive confrontations. Manages and resolves conflicts and disagreements in a constructive manner.",
+    "category": ""
+  },
+  {
+    "name": "Conscientiousness",
+    "definition": "Displays a high level of effort and commitment towards performing work; demonstrates responsible behavior.",
+    "category": ""
+  },
+  {
+    "name": "Constitutional Law",
+    "definition": "Knowledge of the laws and legal precedents related to the U.S. Constitution.",
+    "category": ""
+  },
+  {
+    "name": "Continual Learning",
+    "definition": "Assesses and recognizes own strengths and weaknesses; pursues self-development.",
+    "category": ""
+  },
+  {
+    "name": "Contracting/Procurement",
+    "definition": "Knowledge of various types of contracts, techniques, or requirements (for example, Federal Acquisitions Regulations) for contracting or procurement, and contract negotiation and administration.",
+    "category": ""
+  },
+  {
+    "name": "Control of Funds",
+    "definition": "Knowledge of the principles, procedures, and requirements for maintaining control and accountability of obligations and expenditures for all appropriations and fund accounts (for example, revolving, non-appropriated, multiyear, and single-year appropriations).",
+    "category": ""
+  },
+  {
+    "name": "Cost Accounting",
+    "definition": "Knowledge of the principles, procedures, and methods of cost accounting, including the use of historical cost, market value, or present value to measure cost; methods for assigning cost to accounting periods; and cost allocation, cost accrual, depreciation, and unit cost.",
+    "category": ""
+  },
+  {
+    "name": "Cost Estimation and Analysis",
+    "definition": "Knowledge of the principles, practices, and methods used to determine, estimate, and analyze costs, including determining life cycle costs, application of cost models, and evaluation of cost realism.",
+    "category": ""
+  },
+  {
+    "name": "Cost-Benefit Analysis",
+    "definition": "Knowledge of the principles and methods of cost-benefit analysis, including the time value of money, present value concepts, and quantifying tangible and intangible benefits.",
+    "category": ""
+  },
+  {
+    "name": "Creative Thinking (*)",
+    "definition": "Uses imagination to develop new insights into situations and applies innovative solutions to problems; designs new methods where established methods and procedures are inapplicable or are unavailable.",
+    "category": ""
+  },
+  {
+    "name": "Creative Thinking (†)",
+    "definition": "Uses imagination to develop new insights into situations and applies new solutions to problems; designs new methods where established methods and procedures are not suitable or are unavailable.",
+    "category": ""
+  },
+  {
+    "name": "Creativity and Innovation",
+    "definition": "Develops new insights into situations; questions conventional approaches; encourages new ideas and innovations; designs and implements new or cutting edge programs/processes.",
+    "category": ""
+  },
+  {
+    "name": "Criminal Investigation",
+    "definition": "Knowledge of the guidelines, regulations, and procedures associated with criminal investigation, including evidence detection and handling and drawing appropriate factual inferences and conclusions.",
+    "category": ""
+  },
+  {
+    "name": "Criminal Law",
+    "definition": "Knowledge of state and Federal criminal laws, including procedures, regulations, guidelines, and precedents related to admissibility of evidence and prosecution.",
+    "category": ""
+  },
+  {
+    "name": "Customer Service (*)",
+    "definition": "Works with clients and customers (that is, any individuals who use or receive the services or products that your work unit produces, including the general public, individuals who work in the agency, other agencies, or organizations outside the Government) to assess their needs, provide information or assistance, resolve their problems, or satisfy their expectations; knows about available products and services; is committed to providing quality products and services.",
+    "category": ""
+  },
+  {
+    "name": "Customer Service (‡)",
+    "definition": "Anticipates and meets the needs of both internal and external customers. Delivers high-quality products and services; is committed to continuous improvement.",
+    "category": ""
+  },
+  {
+    "name": "Cutting",
+    "definition": "Knowledge of meat cutting, including the grades and structure of meat, fish, or poultry.",
+    "category": ""
+  },
+  {
+    "name": "Data Management",
+    "definition": "Knowledge of the principles, procedures, and tools of data management, such as modeling techniques, data backup, data recovery, data dictionaries, data warehousing, data mining, data archiving, data disposal, and data standardization processes.",
+    "category": ""
+  },
+  {
+    "name": "Data Systems",
+    "definition": "Knowledge of computer hardware and software development and systems as they apply to the conception, specification, analysis, planning, development, installation, test, modification and use of data handling and computing systems in support of aerospace flight and ground systems.",
+    "category": ""
+  },
+  {
+    "name": "Database Administration",
+    "definition": "Knowledge of the principles, methods, and tools for automating, developing, implementing, or administering database systems.",
+    "category": ""
+  },
+  {
+    "name": "Database Management Systems",
+    "definition": "Knowledge of the uses of database management systems and software to control the organization, storage, retrieval, security, and integrity of data.",
+    "category": ""
+  },
+  {
+    "name": "Decision Making",
+    "definition": "Makes sound, well-informed, and objective decisions; perceives the impact and implications of decisions; commits to action, even in uncertain situations, to accomplish organizational goals; causes change.",
+    "category": ""
+  },
+  {
+    "name": "Decision Support",
+    "definition": "Knowledge of decision support theories, methods, and tools for identifying, synthesizing, representing, and evaluating the important aspects of a decision situation and prescribing the recommended course for decision makers and other stakeholders.",
+    "category": ""
+  },
+  {
+    "name": "Decisiveness",
+    "definition": "Makes well-informed, effective, and timely decisions, even when data are limited or solutions produce unpleasant consequences; perceives the impact and implications of decisions.",
+    "category": ""
+  },
+  {
+    "name": "Depth Perception",
+    "definition": "Accurately judges which of several objects is closer or farther away from the observer, or the distance between an object and the observer.",
+    "category": ""
+  },
+  {
+    "name": "Design",
+    "definition": "Knowledge of conceptualizing, developing, producing, understanding, and using plans, models, blueprints, and maps, including the use of tools and instruments to produce precision technical drawings, working prototypes, components, or systems.",
+    "category": ""
+  },
+  {
+    "name": "Detention",
+    "definition": "Knowledge of the policies and procedures for detaining criminal suspects including processing, fingerprinting, detention requests, informing detainee of charges, and transportation.",
+    "category": ""
+  },
+  {
+    "name": "Developing Others",
+    "definition": "Develops the ability of others to perform and contribute to the organization by providing ongoing feedback and by providing opportunities to learn through formal and informal methods.",
+    "category": ""
+  },
+  {
+    "name": "Distributed Systems",
+    "definition": "Knowledge of the principles, theoretical concepts, and tools underlying distributed computing systems, including their associated components and communication standards.",
+    "category": ""
+  },
+  {
+    "name": "Earth Science",
+    "definition": "Knowledge of interdisciplinary disciplines associated with the earth’s composition, structure, or other physical aspects, including atmosphere.",
+    "category": ""
+  },
+  {
+    "name": "Ecology",
+    "definition": "Knowledge of the concepts, principles, and theories of the interrelationships among organisms and their environment, including competition and predation, evolution and natural selection, population dynamics, and the impact of natural phenomena or human actions on natural systems, processes, and biota.",
+    "category": ""
+  },
+  {
+    "name": "Economics",
+    "definition": "Knowledge of economic policy, principles, and practices, market and non-market values, and the analysis and reporting of economic data.",
+    "category": ""
+  },
+  {
+    "name": "Economics and Accounting",
+    "definition": "Knowledge of economic and accounting principles and practices, tax law and practices, the financial markets, banking, and the analysis and reporting of financial data.",
+    "category": ""
+  },
+  {
+    "name": "Education and Training",
+    "definition": "Knowledge of teaching, training, research, making presentations, lecturing, testing, and other instructional methods.",
+    "category": ""
+  },
+  {
+    "name": "Electrical",
+    "definition": "Knowledge of electrical equipment, components, instruments, and systems, including their design, installation, testing, uses, repair, or maintenance.",
+    "category": ""
+  },
+  {
+    "name": "Electrical Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the design, analysis, test, and integration of electrical systems; energy conversion; electrical power generation; and energy transmission, control, distribution or use.",
+    "category": ""
+  },
+  {
+    "name": "Electronic Commerce (e-Commerce)",
+    "definition": "Knowledge of the principles, methods, and tools for conducting business online, including electronic data interchange.",
+    "category": ""
+  },
+  {
+    "name": "Electronics",
+    "definition": "Knowledge of electronic theory, circuits, components, and material properties (excluding computers).",
+    "category": ""
+  },
+  {
+    "name": "Electronics Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the design, analysis, test, fabrication, or verification of analog or digital electronic systems.",
+    "category": ""
+  },
+  {
+    "name": "Embedded Computers",
+    "definition": "Knowledge of specifications and uses of specialized computer systems used to control devices (for example, automobiles, helicopters), including the appropriate programming languages.",
+    "category": ""
+  },
+  {
+    "name": "Employee Benefits",
+    "definition": "Knowledge of HR concepts, principles, and practices related to retirement, insurance, injury compensation, and other employee benefits programs.",
+    "category": ""
+  },
+  {
+    "name": "Employee Development",
+    "definition": "Knowledge of employee development concepts, principles, and practices related to planning, evaluating, and administering training, organizational development, and career development initiatives.",
+    "category": ""
+  },
+  {
+    "name": "Employee Relations",
+    "definition": "Knowledge of laws, rules, regulations, case law, principles, and practices related to employee conduct, performance, and dispute resolution.",
+    "category": ""
+  },
+  {
+    "name": "Encryption",
+    "definition": "Knowledge of procedures, tools, and applications used to keep data or information secure, including public key infrastructure, point-to-point encryption, and smart cards.",
+    "category": ""
+  },
+  {
+    "name": "Engineering and Technology",
+    "definition": "Knowledge of engineering concepts, principles, and practices, and of equipment, tools, mechanical devices, and their uses to produce motion, light, power, technology, and other applications.",
+    "category": ""
+  },
+  {
+    "name": "Enterprise Architecture",
+    "definition": "Knowledge of principles, concepts, and methods of enterprise architecture to align information technology (IT) strategy, plans, and systems with the mission, goals, structure, and processes of the organization.",
+    "category": ""
+  },
+  {
+    "name": "Entomology",
+    "definition": "Knowledge of the concepts, principles, and theories of insects, including taxonomy, morphology, behavior, life cycles, population dynamics, host-insect interactions, the role of insects in natural and managed ecosystems, and the regulation, prevention, and control of pest-related problems.",
+    "category": ""
+  },
+  {
+    "name": "Entrepreneurship",
+    "definition": "Positions the organization for future success by identifying new opportunities; builds the organization by developing or improving products or services. Takes calculated risks to accomplish organizational objectives.",
+    "category": ""
+  },
+  {
+    "name": "Environmental Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods to protect and improve the quality of the environment and its resources; and to monitor, control, abate, and prevent pollutants.",
+    "category": ""
+  },
+  {
+    "name": "External Awareness (*)",
+    "definition": "Identifies and understands economic, political, and social trends that affect the organization.",
+    "category": ""
+  },
+  {
+    "name": "External Awareness (‡)",
+    "definition": "Understands and keeps up-to-date on local, national, and international policies and trends that affect the organization and shape stakeholders' views; is aware of the organization's impact on the external environment.",
+    "category": ""
+  },
+  {
+    "name": "Eye-Hand Coordination",
+    "definition": "Accurately coordinates one's eyes with one's fingers, wrists, or arms to perform job-related tasks (for example, to move, carry, or manipulate objects).",
+    "category": ""
+  },
+  {
+    "name": "Facilities",
+    "definition": "Knowledge of the physical, engineering, and experimental equipment and operational characteristics of facilities, and safety and equipment development designed to support aerospace activities.",
+    "category": ""
+  },
+  {
+    "name": "Federal Funds Processing",
+    "definition": "Knowledge of methods and procedures for processing direct and reimbursable program funds (for example, automatic and funded reimbursements, interagency agreements, transfer appropriations), grants, loans, and credit programs.",
+    "category": ""
+  },
+  {
+    "name": "Financial Analysis",
+    "definition": "Knowledge of the principles, methods, and techniques of financial analysis, forecasting, and modeling to interpret quantitative and qualitative data; includes data modeling, earned value management, and evaluating key financial indicators, trends, and historical data.",
+    "category": ""
+  },
+  {
+    "name": "Financial Assistance Mechanisms",
+    "definition": "Knowledge of the differences between acquisition and financial assistance purposes and requirements; knowledge of Federal assistance instruments, techniques, and procedures for grants (for example, block, mandatory, discretionary) and agreements (for example, cooperative, interagency).",
+    "category": ""
+  },
+  {
+    "name": "Financial Management (*)",
+    "definition": "Prepares, justifies, and/or administers the budget for program areas; plans, administers, and monitors expenditures to ensure cost-effective support of programs and policies; assesses financial condition of an organization.",
+    "category": ""
+  },
+  {
+    "name": "Financial Management (‡)",
+    "definition": "Understands the organization's financial processes. Prepares, justifies, and administers the program budget.  Oversees procurement and contracting to achieve desired results.   Monitors expenditures and uses cost-benefit thinking to set priorities.",
+    "category": ""
+  },
+  {
+    "name": "Financial Systems",
+    "definition": "Knowledge of the standards, architecture, and specifications of automated financial systems, including source documents, system flows, system interfaces, and related internal controls.",
+    "category": ""
+  },
+  {
+    "name": "Fine Arts",
+    "definition": "Knowledge of theory and techniques required to produce, compose, and perform works of music, dance, visual arts, drama, and sculpture.",
+    "category": ""
+  },
+  {
+    "name": "Fire Management",
+    "definition": "Knowledge of the concepts, principles, and theories of fire management, including the characteristics, behavior, and ecology of fire; methodologies, strategies, and equipment used in prescribed fires; fire detection, prevention, and suppression strategies; and integration of fire with natural resource management.",
+    "category": ""
+  },
+  {
+    "name": "Firearms",
+    "definition": "Knowledge of firearm usage and related issues, such as ammunition, range regulations and safety and use of force policies.",
+    "category": ""
+  },
+  {
+    "name": "First Response",
+    "definition": "Knowledge of emergency management methods, such as first aid, rescue techniques, and threat assessments.",
+    "category": ""
+  },
+  {
+    "name": "Fishery Biology",
+    "definition": "Knowledge of the concepts, principles, and theories of aquatic life, including classification, taxonomy, population dynamics, distribution, habitat requirements, life histories, reproduction, behaviors, conservation, and care of aquatic species.",
+    "category": ""
+  },
+  {
+    "name": "Flexibility (*)",
+    "definition": "Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with ambiguity.",
+    "category": ""
+  },
+  {
+    "name": "Flexibility (†)",
+    "definition": "Is open to change and new information; adapts behavior or work methods in response to new information, changing conditions, or unexpected obstacles; effectively deals with uncertainty.",
+    "category": ""
+  },
+  {
+    "name": "Flexibility (‡)",
+    "definition": "Is open to change and new information; rapidly adapts to new information, changing conditions, or unexpected obstacles.",
+    "category": ""
+  },
+  {
+    "name": "Flight Systems",
+    "definition": "Knowledge of the concepts, principles, and theories related to the development, design, test, and evaluation of aerospace flight vehicles and their component subsystems, or their related external systems.",
+    "category": ""
+  },
+  {
+    "name": "Fluid Dynamics and Mechanics",
+    "definition": "Knowledge of the concepts, principles, and theories of computational fluid dynamics, fluid mechanics, flight dynamics, flight structures, the force and motion mechanics of vehicles in various atmospheric and celestial environments, aerothermodynamics, and the characteristics of electrically conducting fluids under the action of magnetic and electric fields.",
+    "category": ""
+  },
+  {
+    "name": "Food Production",
+    "definition": "Knowledge of planning, growing, and harvesting of food for consumption using appropriate equipment and techniques.",
+    "category": ""
+  },
+  {
+    "name": "Food Service",
+    "definition": "Knowledge of preparing and serving food for consumption.",
+    "category": ""
+  },
+  {
+    "name": "Foreign Language",
+    "definition": "Knowledge of sign language or of the structure and content of a foreign (non-English) language, including the meaning and spelling of words, rules of composition, and grammar.",
+    "category": ""
+  },
+  {
+    "name": "Forensics",
+    "definition": "Knowledge of procedures of civil, criminal, or administrative hearings, evidence collection, including the delivery and receipt of evidence, classes of evidence, and rules of evidence and legal procedures.",
+    "category": ""
+  },
+  {
+    "name": "Forest Management",
+    "definition": "Knowledge of the concepts, principles, and theories of silviculture and forest ecology, forest use, management, harvesting, conducting inventories, regeneration, sustainability, and conservation; and the role of disturbances in timberland resources.",
+    "category": ""
+  },
+  {
+    "name": "General Engineering",
+    "definition": "Knowledge of the concepts, principles, and theories of engineering and their practical applications.",
+    "category": ""
+  },
+  {
+    "name": "Genetics",
+    "definition": "Knowledge of the concepts, principles, and theories of genetics, including the biochemistry of DNA, gene interaction, gene expression, gene inheritance, population genetics, adaptation, and evolution.",
+    "category": ""
+  },
+  {
+    "name": "Geography",
+    "definition": "Knowledge of geographical locations, their relationships and characteristics.",
+    "category": ""
+  },
+  {
+    "name": "Geographical Sciences",
+    "definition": "Knowledge of the concepts, principles, theories, and methods for describing the location and distribution of land, sea, and air masses, including their physical locations, relationships, characteristics, and what the land supports.",
+    "category": ""
+  },
+  {
+    "name": "Geology",
+    "definition": "Knowledge of the concepts, principles, and theories of the origins and structure of the earth, including the physical forces that have shaped it and its physical and organic history.",
+    "category": ""
+  },
+  {
+    "name": "Geophysics",
+    "definition": "Knowledge of the concepts, principles, and theories related to solid earth structure, global seismic patterns, lithosphere, atmosphere, and the behavior of the earth’s gravitational, magnetic, and electrical fields, and other forces affecting the earth and its environment.",
+    "category": ""
+  },
+  {
+    "name": "Geotechnical Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the investigation and evaluation of subsurface soil or geologic conditions and properties for the purpose of designing stable foundation systems, earthen structures, or the remediation of subsurface conditions.",
+    "category": ""
+  },
+  {
+    "name": "Grants Management",
+    "definition": "Knowledge of requirements, practices, and procedures for soliciting, receiving, reviewing, and processing proposals, and awarding and administering grants and agreements.",
+    "category": ""
+  },
+  {
+    "name": "Grants Management Laws, Regulations, and Guidelines",
+    "definition": "Knowledge of principles, laws, regulations, policies, practices, and guidelines (for example, Executive Orders, Code of Federal Regulations, OMB circulars) of grant or agreement programs, including their order of precedence.",
+    "category": ""
+  },
+  {
+    "name": "Hardware",
+    "definition": "Knowledge of specifications, uses, and types of computer or computer-related equipment.",
+    "category": ""
+  },
+  {
+    "name": "Hardware Engineering",
+    "definition": "Knowledge of the principles, methods, and tools for designing, developing, and testing computer or computer-related equipment.",
+    "category": ""
+  },
+  {
+    "name": "Hazardous Materials",
+    "definition": "Knowledge of hazardous materials and waste and their uses, interactions, dangers, production, handling, storage, and disposal.",
+    "category": ""
+  },
+  {
+    "name": "Health Physics",
+    "definition": "Knowledge of the concepts, principles, theories, and methods pertaining to the protection of people, their environment, and equipment from hazards (for example, radiation or hazardous chemicals) and the control of radioactive material.",
+    "category": ""
+  },
+  {
+    "name": "History and Archeology",
+    "definition": "Knowledge of historical events and their causes, indicators, and impact on particular civilization and cultures, and of preservation and archival techniques.",
+    "category": ""
+  },
+  {
+    "name": "Horticulture",
+    "definition": "Knowledge of cultivating flowers, plants, and trees.",
+    "category": ""
+  },
+  {
+    "name": "Horticultural Sciences",
+    "definition": "Knowledge of the concepts, principles, theories, and practices of cultivation or crop management, physiological processes in plant growth and crop yield.",
+    "category": ""
+  },
+  {
+    "name": "HR Information Systems",
+    "definition": "Knowledge of HR management concepts, principles, and practices related to identifying and analyzing HR processes, translating functional requirements into technical requirements, and delivering and maintaining HR information systems.",
+    "category": ""
+  },
+  {
+    "name": "Human Capital Management",
+    "definition": "Builds and manages workforce based on organizational goals, budget considerations, and staffing needs. Ensures that employees are appropriately recruited, selected, appraised, and rewarded; takes action to address performance problems. Manages a multi-sector workforce and a variety of work situations.",
+    "category": ""
+  },
+  {
+    "name": "Human Factors",
+    "definition": "Knowledge of the principles, methods, and tools used to identify and apply information about human behavior, abilities, limitations, and other characteristics to the design of tools, machines, systems, tasks, jobs, and environments for effective human use.",
+    "category": ""
+  },
+  {
+    "name": "Hydraulic Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods applicable to analysis of the flow of fluids (open channel and pressure flow), estimation of river stages, and design of hydraulic structures, drainage structures, pipes, navigation facilities, reservoirs, locks, and dams.",
+    "category": ""
+  },
+  {
+    "name": "Hydrology",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the magnitude, distribution, and quality of water resources including watershed management, climatology, geomorphology, groundwater hydrology, water quality, water resource management, and groundwater/surface water interactions.",
+    "category": ""
+  },
+  {
+    "name": "Identity Management",
+    "definition": "Knowledge of methods and controls to validate the identity of individuals to verify access approval and level, and monitor activity to ensure that only authorized access is taking place.",
+    "category": ""
+  },
+  {
+    "name": "Incident Management",
+    "definition": "Knowledge of the tactics, technologies, principles, and processes to protect, analyze, prioritize, and handle incidents.",
+    "category": ""
+  },
+  {
+    "name": "Industrial Equipment Operation",
+    "definition": "Knowledge of principles and methods for operating industrial equipment.",
+    "category": ""
+  },
+  {
+    "name": "Influencing/Negotiating (*)",
+    "definition": "Persuades others to accept recommendations, cooperate, or change their behavior; works with others towards an agreement; negotiates to find mutually acceptable solutions.",
+    "category": ""
+  },
+  {
+    "name": "Influencing/Negotiating (‡)",
+    "definition": "Persuades others; builds consensus through give and take; gains cooperation from others to obtain information and accomplish goals.",
+    "category": ""
+  },
+  {
+    "name": "Information Assurance",
+    "definition": "Knowledge of methods and procedures to protect information systems and data by ensuring their availability, authentication, confidentiality, and integrity.",
+    "category": ""
+  },
+  {
+    "name": "Information Management",
+    "definition": "Identifies a need for and knows where or how to gather information; organizes and maintains information or information management systems.",
+    "category": ""
+  },
+  {
+    "name": "Information Resources Strategy and Planning",
+    "definition": "Knowledge of the principles, methods, and techniques of information technology (IT) assessment, planning, management, monitoring, and evaluation, such as IT baseline assessment, interagency functional analysis, contingency planning, and disaster recovery.",
+    "category": ""
+  },
+  {
+    "name": "Information Systems Security Certification",
+    "definition": "Knowledge of the principles, methods, and tools for evaluating information systems security features against a set of specified security requirements. Includes developing security certification and accreditation plans and procedures, documenting deficiencies, reporting corrective actions, and recommending changes to improve the security of information systems.",
+    "category": ""
+  },
+  {
+    "name": "Information Systems/Network Security",
+    "definition": "Knowledge of methods, tools, and procedures, including development of information security plans, to prevent information systems vulnerabilities, and provide or restore security of information systems and network services.",
+    "category": ""
+  },
+  {
+    "name": "Information Technology Architecture",
+    "definition": "Knowledge of architectural methodologies used in the design and development of information systems, including the physical structure of a system's internal operations and interactions with other systems.",
+    "category": ""
+  },
+  {
+    "name": "Information Technology Performance Assessment",
+    "definition": "Knowledge of the principles, methods, and tools (for example, surveys, system performance measures) to assess the effectiveness and practicality of information technology systems.",
+    "category": ""
+  },
+  {
+    "name": "Information Technology Program Management",
+    "definition": "Knowledge of the principles, methods, and tools for the coordinated management of an IT program to include providing oversight of multiple IT projects, integrating dependent schedules and deliverables, and related activities (for example, benefits management, life cycle management, program governance).",
+    "category": ""
+  },
+  {
+    "name": "Information Technology Research and Development",
+    "definition": "Knowledge of scientific principles, methods, and tools of basic and applied research used to conduct a systematic inquiry into a subject matter area.",
+    "category": ""
+  },
+  {
+    "name": "Infrastructure Design",
+    "definition": "Knowledge of the architecture and typology of software, hardware, and networks, including LANS, WANS, and telecommunications systems, their components and associated protocols and standards, and how they operate and integrate with one another and with associated controlling software.",
+    "category": ""
+  },
+  {
+    "name": "Insurance",
+    "definition": "Knowledge of various types of insurance, insurance regulations, claims processing, examination, adjudication, or adjustment.",
+    "category": ""
+  },
+  {
+    "name": "Integrity/Honesty (*)",
+    "definition": "Contributes to maintaining the integrity of the organization; displays high standards of ethical conduct and understands the impact of violating these standards on an organization, self, and others; is trustworthy.",
+    "category": ""
+  },
+  {
+    "name": "Integrity/Honesty (‡)",
+    "definition": "Behaves in an honest, fair, and ethical manner. Shows consistency in words and actions. Models high standards of ethics.",
+    "category": ""
+  },
+  {
+    "name": "Internal Controls",
+    "definition": "Knowledge of the principles, methods, and techniques for establishing internal control activities (for example, authorizations, verifications, reconciliations), monitoring their use, and evaluating their performance (for example, identification of material weaknesses or significant deficiencies).",
+    "category": ""
+  },
+  {
+    "name": "Interpersonal Skills (*)",
+    "definition": "Shows understanding, friendliness, courtesy, tact, empathy, concern, and politeness to others; develops and maintains effective relationships with others; may include effectively dealing with individuals who are difficult, hostile, or distressed; relates well to people from varied backgrounds and different situations; is sensitive to cultural diversity, race, gender, disabilities, and other individual differences.",
+    "category": ""
+  },
+  {
+    "name": "Interpersonal Skills (‡)",
+    "definition": "Treats others with courtesy, sensitivity, and respect.  Considers and responds appropriately to the needs and feelings of different people in different situations.",
+    "category": ""
+  },
+  {
+    "name": "IT Modeling and Simulation",
+    "definition": "Knowledge of mathematical modeling and simulation tools and techniques to plan and conduct test and evaluation programs, characterize systems support decisions involving requirements, evaluate design alternatives, or support operational preparation.",
+    "category": ""
+  },
+  {
+    "name": "Knowledge Management",
+    "definition": "Knowledge of the value of collected information and the methods of sharing that information throughout an organization.",
+    "category": ""
+  },
+  {
+    "name": "Labor Law",
+    "definition": "Knowledge of state and Federal employment laws, regulations, guidelines, and legal precedents related to hiring practices, equal employment opportunity, and wage and hour restrictions.",
+    "category": ""
+  },
+  {
+    "name": "Labor Relations",
+    "definition": "Knowledge of laws, rules, regulations, case law, principles, and practices related to negotiating and administering labor agreements.",
+    "category": ""
+  },
+  {
+    "name": "Landscape Architecture",
+    "definition": "Knowledge of the concepts, theories, and practices used in the planning, designing, construction, and adaptation of outdoor features, taking into consideration recreation planning, requirements, aesthetic value, and compatibility with other developments and resources.",
+    "category": ""
+  },
+  {
+    "name": "Leadership",
+    "definition": "Influences, motivates, and challenges others; adapts leadership styles to a variety of situations.",
+    "category": ""
+  },
+  {
+    "name": "Learning",
+    "definition": "Uses efficient learning techniques to acquire and apply new knowledge and skills; uses training, feedback, or other opportunities for self-learning and development.",
+    "category": ""
+  },
+  {
+    "name": "Legal, Government, and Jurisprudence",
+    "definition": "Knowledge of laws, legal codes, court procedures, precedents, legal practices and documents, Government regulations, Executive orders, agency rules, Government organization and functions, and the democratic political process.",
+    "category": ""
+  },
+  {
+    "name": "Leveraging Diversity",
+    "definition": "Fosters an inclusive workplace where diversity and individual differences are valued and leveraged to achieve the vision and mission of the organization.",
+    "category": ""
+  },
+  {
+    "name": "Life Sciences and Systems",
+    "definition": "Knowledge of life sciences that involve the theoretical and experimental research of life systems.",
+    "category": ""
+  },
+  {
+    "name": "Listening",
+    "definition": "Receives, attends to, interprets, and responds to verbal messages and other cues such as body language in ways that are appropriate to listeners and situations.",
+    "category": ""
+  },
+  {
+    "name": "Logical Systems Design",
+    "definition": "Knowledge of the principles and methods for designing business logic components, system processes and outputs, user interfaces, data inputs, and productivity tools (for example, computer-aided software engineering).",
+    "category": ""
+  },
+  {
+    "name": "Manages and Organizes Information",
+    "definition": "Identifies a need; gathers, organizes, and maintains information; determines its importance and accuracy, and communicates it by a variety of methods.",
+    "category": ""
+  },
+  {
+    "name": "Manages Human Resources",
+    "definition": "Plans, distributes, and monitors work assignments; evaluates work performance and provides feedback to others on their performance.",
+    "category": ""
+  },
+  {
+    "name": "Manages Resources",
+    "definition": "Selects, acquires, stores, and distributes resources such as materials, equipment, or money.",
+    "category": ""
+  },
+  {
+    "name": "Managing Human Resources",
+    "definition": "Plans, distributes, coordinates, and monitors work assignments of others; evaluates work performance and provides feedback to others on their performance; ensures that staff are appropriately selected, utilized, and developed, and that they are treated in a fair and equitable manner.",
+    "category": ""
+  },
+  {
+    "name": "Manufacturing",
+    "definition": "Knowledge of the specifications, tools, inputs, raw materials, outputs, and waste related to the manufacture of prototypes, models, systems, or other products.",
+    "category": ""
+  },
+  {
+    "name": "Materials Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the composition, structures, and properties of materials, their use, behavior and performance under environmental influences, and the identification, processing, and manufacture of optimal materials for various applications.",
+    "category": ""
+  },
+  {
+    "name": "Mathematical Reasoning",
+    "definition": "Solves practical problems by choosing appropriately from a variety of mathematical and statistical techniques.",
+    "category": ""
+  },
+  {
+    "name": "Measurement and Instrumentation",
+    "definition": "Knowledge of electronics and related electrical engineering disciplines necessary for the research and development of sensors, electronic measurement devices, and instrumentation systems for aerospace systems and components.",
+    "category": ""
+  },
+  {
+    "name": "Mechanical (*)",
+    "definition": "Knowledge of machines and tools, including their designs, uses, benefits, repair, and maintenance.",
+    "category": ""
+  },
+  {
+    "name": "Mechanical (†)",
+    "definition": "Knowledge of machines and tools, including their designs, installation, uses, repair, and maintenance.",
+    "category": ""
+  },
+  {
+    "name": "Mechanical Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to planning, designing, developing, testing, or evaluating thermodynamic, mechanical, electro-mechanical, pneumatic, hydraulic, or structural equipment, systems, models, tools, or specialized mechanical devices.",
+    "category": ""
+  },
+  {
+    "name": "Mechanics",
+    "definition": "Knowledge of machines and tools, including their design, use, benefits, repair, operation, and maintenance.",
+    "category": ""
+  },
+  {
+    "name": "Medicine and Dentistry",
+    "definition": "Knowledge of the diagnosis and treatment of injuries, diseases, and deformities, including preventive health-care measures.",
+    "category": ""
+  },
+  {
+    "name": "Memory",
+    "definition": "Recalls information that has been presented previously.",
+    "category": ""
+  },
+  {
+    "name": "Mental Visualization",
+    "definition": "Sees things in the mind by mentally organizing and processing symbols, pictures, graphs, objects, or other information (for example, sees a building from a blueprint, or sees the flow of work activities from reading a work plan).",
+    "category": ""
+  },
+  {
+    "name": "Metal Processing and Metalworking",
+    "definition": "Knowledge of materials, methods, and appropriate tools to process, treat, form, or shape metal.",
+    "category": ""
+  },
+  {
+    "name": "Metallurgy",
+    "definition": "Knowledge of the concepts, principles, and theories related to the study of extracting, refining, alloying, and preparing metals for use; and their properties and behavior as affected by the composition, treatment in manufacture, and conditions of use.",
+    "category": ""
+  },
+  {
+    "name": "Mine Safety and Health",
+    "definition": "Knowledge of mine safety and health principles and practices, techniques and procedures, regulations, and standards as they apply to conducting inspections/investigations, identifying and evaluating unsafe conditions, and recommending methods to correct unsafe conditions.",
+    "category": ""
+  },
+  {
+    "name": "Mining Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to rock mechanics; the exploration, excavation, extraction, processing and transporting of mineral resources; and the conservation and development of mineral lands, materials, and deposits.",
+    "category": ""
+  },
+  {
+    "name": "Modeling and Simulation",
+    "definition": "Knowledge of the tools and techniques used to develop functional, physical, or prototype models and simulations for test and evaluation programs, the prediction of behavior and phenomena, and to visually communicate concepts.",
+    "category": ""
+  },
+  {
+    "name": "Multimedia Technologies",
+    "definition": "Knowledge of the principles, methods, tools, and techniques to develop or apply technology using text, audio, graphics, or other media.",
+    "category": ""
+  },
+  {
+    "name": "Negotiation",
+    "definition": "Works with others towards an agreement that may involve exchanging specific resources or resolving differences.",
+    "category": ""
+  },
+  {
+    "name": "Network Management",
+    "definition": "Knowledge of the operation, management, and maintenance of network and telecommunication systems and linked systems and peripherals.",
+    "category": ""
+  },
+  {
+    "name": "Nuclear Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and application of nuclear technologies including research, development, construction, operation, testing, and maintenance of nuclear reactors, radiation generating devices, and associated systems and equipment.",
+    "category": ""
+  },
+  {
+    "name": "Nuclear Physics",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the prediction of nuclear interactions and reactions, including practices and methods used to produce, measure, use, or observe such reactions in stars, nuclear weapons systems, and radiation shielding.",
+    "category": ""
+  },
+  {
+    "name": "Object Technology",
+    "definition": "Knowledge of the principles, methods, tools, and techniques that use object-oriented languages, analysis, and design methodologies.",
+    "category": ""
+  },
+  {
+    "name": "Operating Systems",
+    "definition": "Knowledge of computer network, desktop, and mainframe operating systems and their applications.",
+    "category": ""
+  },
+  {
+    "name": "Operations",
+    "definition": "Knowledge of engineering or physical science disciplines to support space flight operations, training or planning; serving as an astronaut or mission specialist.",
+    "category": ""
+  },
+  {
+    "name": "Operations Support",
+    "definition": "Knowledge of procedures to ensure production or delivery of products and services, including tools and mechanisms for distributing new or enhanced software.",
+    "category": ""
+  },
+  {
+    "name": "Oral Communication (*)",
+    "definition": "Expresses information (for example, ideas or facts) to individuals or groups effectively, taking into account the audience and nature of the information (for example, technical, sensitive, controversial); makes clear and convincing oral presentations; listens to others, attends to nonverbal cues, and responds appropriately.",
+    "category": ""
+  },
+  {
+    "name": "Oral Communication (‡)",
+    "definition": "Makes clear and convincing oral presentations. Listens effectively; clarifies information as needed.",
+    "category": ""
+  },
+  {
+    "name": "Organizational Awareness",
+    "definition": "Knows the organization's mission and functions, and how its social, political, and technological systems work and operates effectively within them; this includes the programs, policies, procedures, rules, and regulations of the organization.",
+    "category": ""
+  },
+  {
+    "name": "Organizational Development",
+    "definition": "Knowledge of the principles of organizational development and change management theories, and their applications.",
+    "category": ""
+  },
+  {
+    "name": "Organizational Performance Analysis",
+    "definition": "Knowledge of the methods, techniques, and tools used to analyze program, organizational, and mission performance; includes methods that deliver key performance information (for example, comparative, trend, diagnostic, root cause, predictive) used to inform decisions, actions, communications, and accountability systems.",
+    "category": ""
+  },
+  {
+    "name": "Painting",
+    "definition": "Knowledge of materials, methods, and appropriate tools to apply paint and other protective coating materials on drywall, wood, metal, glass, and other surfaces.",
+    "category": ""
+  },
+  {
+    "name": "Partnering",
+    "definition": "Develops networks and builds alliances; collaborates across boundaries to build strategic relationships and achieve common goals.",
+    "category": ""
+  },
+  {
+    "name": "Pathology",
+    "definition": "Knowledge of the concepts, principles, and theories of plant, insect, or animal diseases and host/pathogen relationships, including effects on natural and managed ecosystems.",
+    "category": ""
+  },
+  {
+    "name": "Perceptual Speed",
+    "definition": "Quickly and accurately sees detail in words, numbers, pictures, and graphs.",
+    "category": ""
+  },
+  {
+    "name": "Performance Management",
+    "definition": "Knowledge of performance management concepts, principles, and practices related to planning, monitoring, rating, and rewarding employee performance.",
+    "category": ""
+  },
+  {
+    "name": "Performance Measurement",
+    "definition": "Knowledge of the principles and methods for evaluating program or organizational performance using financial and nonfinancial measures, including identification of evaluation factors (for example, workload, personnel requirements), metrics, and outcomes.",
+    "category": ""
+  },
+  {
+    "name": "Peripheral Vision",
+    "definition": "Sees objects or movement of objects to one’s side when the eyes are focused forward.",
+    "category": ""
+  },
+  {
+    "name": "Personnel and Human Resources",
+    "definition": "Knowledge of hiring, classification, benefits, labor relations, negotiation, and Federal, state, and local employment regulations.",
+    "category": ""
+  },
+  {
+    "name": "Personnel Security and Safety",
+    "definition": "Knowledge of methods and controls of personnel, public safety, and security operations; investigation and inspection techniques; or rules, regulations, precautions, and prevention techniques for the protection of people, data, or property.",
+    "category": ""
+  },
+  {
+    "name": "Pest Control",
+    "definition": "Knowledge of pest species and the methods and materials, including chemicals, for control or prevention.",
+    "category": ""
+  },
+  {
+    "name": "Petroleum Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the exploration, development, extraction, recovery, processing, and conservation of fluid minerals, geothermal resources, organic compounds, or natural gas resources.",
+    "category": ""
+  },
+  {
+    "name": "Philosophy",
+    "definition": "Knowledge of different philosophical systems, including their basic principles, values, ethics, ways of  thinking, customs, religions, and practices, and their impact on human culture.",
+    "category": ""
+  },
+  {
+    "name": "Physical Security",
+    "definition": "Knowledge of methods and controls to protect an organization from natural or man-made threats to physical locations where information systems equipment is located or work is performed (for example, computer rooms, work locations, and equipment rooms).",
+    "category": ""
+  },
+  {
+    "name": "Physical Strength",
+    "definition": "Exerts maximum muscle force to lift, push, pull, or carry objects; performs moderately laboring work.",
+    "category": ""
+  },
+  {
+    "name": "Physical Strength and Agility",
+    "definition": "Ability to bend, lift, climb, stand, and walk for long periods of time; ability to perform moderately heavy laboring work.",
+    "category": ""
+  },
+  {
+    "name": "Physics",
+    "definition": "Knowledge and prediction of physical principles, laws, and applications including air, water, material dynamics, light, atomic principles, heat, electric theory, earth formations, and meteorological and related natural phenomena.",
+    "category": ""
+  },
+  {
+    "name": "Physical Sciences",
+    "definition": "Knowledge of the concepts, principles, theories, and methods to investigate and apply the relations between space, time, matter, and energy in the areas of gravity, atomic principles, mechanics, heat, light, sound, electricity, magnetism, and related natural phenomena.",
+    "category": ""
+  },
+  {
+    "name": "Planning and Evaluating",
+    "definition": "Organizes work, sets priorities, and determines resource requirements; determines short- or long-term goals and strategies to achieve them; coordinates with other organizations or parts of the organization to accomplish goals; monitors progress and evaluates outcomes.",
+    "category": ""
+  },
+  {
+    "name": "Plumbing and Pipefitting",
+    "definition": "Knowledge of materials, methods, and the appropriate tools to install, maintain, or repair pipelines, pipe systems, and fixtures, including water, air, steam, gas, chemicals, or sewage.",
+    "category": ""
+  },
+  {
+    "name": "Political Savvy",
+    "definition": "Identifies the internal and external politics that impact the work of the organization. Perceives organizational and political reality and acts accordingly.",
+    "category": ""
+  },
+  {
+    "name": "Principles of Accounting",
+    "definition": "Knowledge of generally accepted accounting principles, standards, and practices (for example, double entry accounting, accrual accounting), including the full accounting cycle and the preparation of work sheets, financial statements, ledgers, and journals.",
+    "category": ""
+  },
+  {
+    "name": "Principles of Finance",
+    "definition": "Knowledge of the basic principles, practices, and methods of financial management to include requisitions, apportionments, allotments, investments, fiscal management, activity reporting, and fiscal year guidelines.",
+    "category": ""
+  },
+  {
+    "name": "Problem Solving (*)",
+    "definition": "Identifies problems; determines accuracy and relevance of information; uses sound judgment to generate and evaluate alternatives, and to make recommendations.",
+    "category": ""
+  },
+  {
+    "name": "Problem Solving (‡)",
+    "definition": "Identifies and analyzes problems; weighs relevance and accuracy of information; generates and evaluates alternative solutions; makes recommendations.",
+    "category": ""
+  },
+  {
+    "name": "Process Control",
+    "definition": "Knowledge of the principles, methods, and procedures used for the automated control of a process, including the design, development, and maintenance of associated software, hardware, and systems.",
+    "category": ""
+  },
+  {
+    "name": "Product Evaluation",
+    "definition": "Knowledge of methods for researching and analyzing external products to determine their potential for meeting organizational standards and business needs.",
+    "category": ""
+  },
+  {
+    "name": "Production and Processing",
+    "definition": "Knowledge of inputs, outputs, raw materials, waste, quality control, costs, maintaining inventory, and techniques for maximizing the manufacture and distribution of goods.",
+    "category": ""
+  },
+  {
+    "name": "Project Management",
+    "definition": "Knowledge of the principles, methods, or tools for developing, scheduling, coordinating, and managing projects and resources, including monitoring and inspecting costs, work, and contractor performance.",
+    "category": ""
+  },
+  {
+    "name": "Propulsion and Power",
+    "definition": "Knowledge of the concepts, principles, and theories of liquid, solid, electrical, chemical, electrochemical, or nuclear propulsion and power generation systems, their component parts and subsystems, and the direct and indirect conversion of energy into power for various applications.",
+    "category": ""
+  },
+  {
+    "name": "Psychology",
+    "definition": "Knowledge of the concepts, principles, and theories of human behavior and performance in various contexts, mental processes, or the assessment and treatment of behavioral and affective disorders.",
+    "category": ""
+  },
+  {
+    "name": "Public Planning",
+    "definition": "Knowledge of functions, principles, methods, and techniques of public planning, including those related to community planning, outdoor recreation planning, and natural resource management, such as demand forecasting, environmental impact analysis, financial forecasting, and land use planning and zoning.",
+    "category": ""
+  },
+  {
+    "name": "Public Safety and Security",
+    "definition": "Knowledge of military, weaponry, and intelligence operations; public safety and security operations; occupational health and safety; investigation and inspection techniques; or rules, regulations, precautions, and prevention techniques for the protection of people, data, and property.",
+    "category": ""
+  },
+  {
+    "name": "Public Service Motivation",
+    "definition": "Shows a commitment to serve the public. Ensures that actions meet public needs; aligns organizational objectives and practices with public interests.",
+    "category": ""
+  },
+  {
+    "name": "Quality Assurance",
+    "definition": "Knowledge of the principles, methods, and tools of quality assurance and quality control used to ensure a product fulfills functional requirements and standards.",
+    "category": ""
+  },
+  {
+    "name": "Quality Management",
+    "definition": "Knowledge of the principles, methods, and tools of quality assurance, quality control, and reliability used to ensure that a project, system, or product fulfills requirements and standards.",
+    "category": ""
+  },
+  {
+    "name": "Rangeland Management",
+    "definition": "Knowledge of the concepts, principles, and theories of non-forested or forested land ecosystems, including rangeland use, management, and monitoring; conducting inventories; and the role of disturbances in rangeland ecosystems.",
+    "category": ""
+  },
+  {
+    "name": "Reading (*)",
+    "definition": "Understands and interprets written material, including technical material, rules, regulations, instructions, reports, charts, graphs, or tables; applies what is learned from written material to specific situations.",
+    "category": ""
+  },
+  {
+    "name": "Reading (†)",
+    "definition": "Understands and interprets written material, including technical materials, rules, regulations, instructions, reports, charts, graphs, or tables; applies what is learned from written material to specific situations.",
+    "category": ""
+  },
+  {
+    "name": "Reading Comprehension",
+    "definition": "Understands and interprets written material, including technical material, rules, regulations, instructions, reports, charts, graphs, or tables; applies what is learned from written material to specific situations.",
+    "category": ""
+  },
+  {
+    "name": "Real Estate",
+    "definition": "Knowledge of real estate principles, practices, markets, and values.",
+    "category": ""
+  },
+  {
+    "name": "Reasoning",
+    "definition": "Identifies rules, principles, or relationships that explain facts, data, or other information; analyzes information and makes correct inferences or draws accurate conclusions.",
+    "category": ""
+  },
+  {
+    "name": "Recruitment/Placement",
+    "definition": "Knowledge of HR concepts, principles, and practices related to identifying, attracting, and selecting individuals and placing them into positions to address changing organizational needs.",
+    "category": ""
+  },
+  {
+    "name": "Remote Sensing",
+    "definition": "Knowledge of the concepts, principles, theories, and methods necessary to obtain, use, and interpret data from remote sensing sources, including aircrafts and satellites.",
+    "category": ""
+  },
+  {
+    "name": "Requirements Analysis",
+    "definition": "Knowledge of the principles and methods to identify, analyze, specify, design, and manage functional and infrastructure requirements; includes translating functional requirements into technical requirements used for logical design or presenting alternative technologies or approaches.",
+    "category": ""
+  },
+  {
+    "name": "Research",
+    "definition": "Knowledge of the scientific principles, methods, and processes used to conduct a systematic and objective inquiry; including study design, collection, analysis, and interpretation of data; and the reporting of results.",
+    "category": ""
+  },
+  {
+    "name": "Resilience",
+    "definition": "Deals effectively with pressure; remains optimistic and persistent, even under adversity. Recovers quickly from setbacks.",
+    "category": ""
+  },
+  {
+    "name": "Restraint and Self-defense",
+    "definition": "Knowledge of techniques and methods used to restrain hostile individuals, including the models and guidelines on appropriate level and nature of force for self-defense.",
+    "category": ""
+  },
+  {
+    "name": "Risk Management",
+    "definition": "Knowledge of the principles, methods, and tools used for risk assessment and mitigation, including assessment of failures and their consequences.",
+    "category": ""
+  },
+  {
+    "name": "Road Work and Pavement",
+    "definition": "Knowledge of materials, methods, and appropriate tools to construct, maintain, or repair road surfaces, including sidewalks, parking lots, runways, etc.",
+    "category": ""
+  },
+  {
+    "name": "Safety Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods to identify, control, mitigate, and eliminate safety hazards in the design and use of facilities, equipment, operations, and work processes.",
+    "category": ""
+  },
+  {
+    "name": "Sales and Marketing",
+    "definition": "Knowledge of showing, promoting, and selling products and services.",
+    "category": ""
+  },
+  {
+    "name": "Search",
+    "definition": "Knowledge of the laws, principles and methods of conducting searches on personal property such as vehicles, documents, buildings, and items.",
+    "category": ""
+  },
+  {
+    "name": "Security",
+    "definition": "Knowledge of the laws, regulations, and guidelines related to securing personnel, facilities, and information, including the requirements for handling, transporting, and protecting classified information and proper reporting of security incidents.",
+    "category": ""
+  },
+  {
+    "name": "Seizure",
+    "definition": "Knowledge of the laws, regulations, and procedures for property seizure, including chain of custody requirements and procedures to catalog and secure seized property.",
+    "category": ""
+  },
+  {
+    "name": "Self-Esteem (*)",
+    "definition": "Believes in own self-worth; maintains a positive view of self and displays a professional image.",
+    "category": ""
+  },
+  {
+    "name": "Self-Esteem (†)",
+    "definition": "Believes in own self-worth; maintains a positive view of self and displays a confident, capable image.",
+    "category": ""
+  },
+  {
+    "name": "Self-Management",
+    "definition": "Sets well-defined and realistic personal goals; displays a high level of initiative, effort, and commitment towards completing assignments in a timely manner; works with minimal supervision; is motivated to achieve; demonstrates responsible behavior.",
+    "category": ""
+  },
+  {
+    "name": "Sociology and Anthropology",
+    "definition": "Knowledge of the concepts, principles, and theories of group behavior and dynamics; societal trends and influences; and cultures, their history, migrations, ethnicity, and origins.",
+    "category": ""
+  },
+  {
+    "name": "Software Development",
+    "definition": "Knowledge of the principles, methods, and tools for designing, developing, and testing software in a given environment.",
+    "category": ""
+  },
+  {
+    "name": "Software Engineering",
+    "definition": "Knowledge of software engineering design and development methodologies, paradigms, and tools; the software life cycle; software reusability; and software reliability metrics.",
+    "category": ""
+  },
+  {
+    "name": "Software Testing and Evaluation",
+    "definition": "Knowledge of the principles, methods, and tools for analyzing and developing software test and evaluation procedures.",
+    "category": ""
+  },
+  {
+    "name": "Soil Science",
+    "definition": "Knowledge of the concepts, principles, or theories of soil composition, formation, classification, mapping, testing, and management, including erosion, pollution, conservation, and watershed management.",
+    "category": ""
+  },
+  {
+    "name": "Space Science",
+    "definition": "Knowledge of physical science and engineering necessary to conduct research or study the solar system and beyond.",
+    "category": ""
+  },
+  {
+    "name": "Spatial Orientation",
+    "definition": "Knows one's location in relation to the environment; determines where other objects are in relation to one's self (for example, when using a map).",
+    "category": ""
+  },
+  {
+    "name": "Speaking",
+    "definition": "Uses correct English grammar to organize and communicate ideas in words that are appropriate to listeners and situations; uses body language appropriately.",
+    "category": ""
+  },
+  {
+    "name": "Stakeholder Management",
+    "definition": "Knowledge of the concepts, practices, and techniques used to identify, engage, influence, and monitor relationships with individuals and groups connected to a work effort; including those actively involved, those who exert influence over the process and its results, and those who have a vested interest in the outcome (positive or negative).",
+    "category": ""
+  },
+  {
+    "name": "Stamina (*)",
+    "definition": "Exerts oneself physically over long periods of time without tiring (which may include performing repetitive tasks such as data entry or coding).",
+    "category": ""
+  },
+  {
+    "name": "Stamina (†)",
+    "definition": "Exerts oneself physically over long periods of time without tiring (which may include performing repetitive tasks such as hammering or lifting objects).",
+    "category": ""
+  },
+  {
+    "name": "Standards",
+    "definition": "Knowledge of standards that either are compliant with or derived from established standards or guidelines.",
+    "category": ""
+  },
+  {
+    "name": "Strategic Thinking (‡)",
+    "definition": "Formulates objectives and priorities, and implements plans consistent with the long-term interests of the organization in a global environment.  Capitalizes on opportunities and manages risks.",
+    "category": ""
+  },
+  {
+    "name": "Strategic Thinking (*)",
+    "definition": "Formulates effective strategies consistent with the business and competitive strategy of the organization in a global economy. Examines policy issues and strategic planning with a long-term perspective. Determines objectives and sets priorities; anticipates potential threats or opportunities.",
+    "category": ""
+  },
+  {
+    "name": "Stress Tolerance",
+    "definition": "Deals calmly and effectively with high stress situations (for example, tight deadlines, hostile individuals, emergency situations, dangerous situations).",
+    "category": ""
+  },
+  {
+    "name": "Structural Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods related to the design and analysis of complex structures using a variety of materials. Structures may include aerospace systems or structures, and other determinate or indeterminate systems.",
+    "category": ""
+  },
+  {
+    "name": "Surveillance",
+    "definition": "Knowledge of surveillance and counter-surveillance techniques, policies, and laws, including overt and covert methods and electronic, optical, and video surveillance methods and tools.",
+    "category": ""
+  },
+  {
+    "name": "Surveying",
+    "definition": "Knowledge of the concepts, principles, theories, and methods used in the measurement or determination of land boundaries, distances, elevations, areas, angles, and other features of the earth’s surface.",
+    "category": ""
+  },
+  {
+    "name": "Systems Engineering",
+    "definition": "Knowledge of the practice of integrating multiple disciplines into a team as part of a structured development process throughout a system's life cycle.",
+    "category": ""
+  },
+  {
+    "name": "Systems Integration",
+    "definition": "Knowledge of the principles, methods, and procedures for installing, integrating, and optimizing information systems components.",
+    "category": ""
+  },
+  {
+    "name": "Systems Life Cycle",
+    "definition": "Knowledge of systems life cycle management concepts used to plan, develop, implement, operate, and maintain information systems.",
+    "category": ""
+  },
+  {
+    "name": "Systems Testing and Evaluation",
+    "definition": "Knowledge of principles, methods, and tools for analyzing and developing systems testing and evaluation procedures and technical characteristics of IT systems, including identifying critical operational issues.",
+    "category": ""
+  },
+  {
+    "name": "Tax Law",
+    "definition": "Knowledge of accounting and tax law for individuals, sole proprietorships, partnerships, and corporations.",
+    "category": ""
+  },
+  {
+    "name": "Teaches Others",
+    "definition": "Helps others learn; identifies training needs; provides constructive reinforcement; coaches others on how to perform tasks; acts as a mentor.",
+    "category": ""
+  },
+  {
+    "name": "Teaching Others",
+    "definition": "Helps others learn through formal or informal methods; identifies training needs; provides constructive feedback; coaches others on how to perform tasks; acts as a mentor.",
+    "category": ""
+  },
+  {
+    "name": "Team Building",
+    "definition": "Inspires and fosters team commitment, spirit, pride, and trust. Facilitates cooperation and motivates team members to accomplish group goals.",
+    "category": ""
+  },
+  {
+    "name": "Teamwork",
+    "definition": "Encourages and facilitates cooperation, pride, trust, and group identity; fosters commitment and team spirit; works with others to achieve goals.",
+    "category": ""
+  },
+  {
+    "name": "Technical Competence",
+    "definition": "Uses knowledge that is acquired through formal training or extensive on-the-job experience to perform one's job; works with, understands, and evaluates technical information related to the job; advises others on technical issues.",
+    "category": ""
+  },
+  {
+    "name": "Technical Credibility",
+    "definition": "Understands and appropriately applies principles, procedures, requirements, regulations, and policies related to specialized expertise.",
+    "category": ""
+  },
+  {
+    "name": "Technical Documentation",
+    "definition": "Knowledge of procedures for developing technical and operational support documentation.",
+    "category": ""
+  },
+  {
+    "name": "Technical Problem Solving",
+    "definition": "Troubleshoots, diagnoses, analyzes, and identifies system malfunctions to determine the source and cause of the problem.",
+    "category": ""
+  },
+  {
+    "name": "Technology Application",
+    "definition": "Uses machines, tools, instruments, or equipment effectively; uses computers and computer applications to analyze and communicate information in the appropriate format.",
+    "category": ""
+  },
+  {
+    "name": "Technology Awareness",
+    "definition": "Knowledge of developments and new applications of information technology (hardware, software, telecommunications), emerging technologies and their applications to business processes, and applications and implementation of information systems to meet organizational requirements.",
+    "category": ""
+  },
+  {
+    "name": "Technology Management",
+    "definition": "Keeps up-to-date on technological developments.  Makes effective use of technology to achieve results.  Ensures access to and security of technology systems.",
+    "category": ""
+  },
+  {
+    "name": "Telecommunications",
+    "definition": "Knowledge of the concepts, principles, and theories of transmissions, broadcasting, switching, control, construction, or operation of telecommunications systems.",
+    "category": ""
+  },
+  {
+    "name": "Textiles",
+    "definition": "Knowledge of materials, methods, and appropriate tools to make and repair items made of fabric or leather.",
+    "category": ""
+  },
+  {
+    "name": "Therapy and Counseling",
+    "definition": "Knowledge of diagnosis and treatment of physical and mental ailments, and career guidance.",
+    "category": ""
+  },
+  {
+    "name": "Toolmaking",
+    "definition": "Knowledge of materials, methods, and appropriate tools to make or repair metal parts, tools, gauges, models,  patterns, and machines.",
+    "category": ""
+  },
+  {
+    "name": "Transportation",
+    "definition": "Knowledge of principles and methods for moving people or goods by air, rail, sea, or road, including costs and limits.",
+    "category": ""
+  },
+  {
+    "name": "Transportation Engineering",
+    "definition": "Knowledge of the concepts, principles, theories, and methods applicable to planning, designing, and constructing of transportation systems including traffic analysis, signal analysis, highway capacity, pavement design, bridge construction, planning of transportation projects, environmental analysis of transportation facilities, and transportation network analysis.",
+    "category": ""
+  },
+  {
+    "name": "Vehicle Maintenance",
+    "definition": "Knowledge of motor vehicle engines, parts, and systems, including their designs, uses, repair, and maintenance.",
+    "category": ""
+  },
+  {
+    "name": "Vehicle Operation",
+    "definition": "Knowledge of procedures for operating motor vehicles, including cars, trucks, or watercraft.",
+    "category": ""
+  },
+  {
+    "name": "Vision (*)",
+    "definition": "Understands where the organization is headed and how to make a contribution; takes a long-term view and recognizes opportunities to help the organization accomplish its objectives or move toward the vision.",
+    "category": ""
+  },
+  {
+    "name": "Vision (‡)",
+    "definition": "Takes a long-term view and builds a shared vision with others; acts as a catalyst for organizational change.  Influences others to translate vision into action.",
+    "category": ""
+  },
+  {
+    "name": "Visual Color Discrimination",
+    "definition": "Accurately matches or detects differences among colors, including shades of color and brightness.",
+    "category": ""
+  },
+  {
+    "name": "Visual Identification",
+    "definition": "Accurately identifies people, animals, or objects based on knowledge of their characteristics.",
+    "category": ""
+  },
+  {
+    "name": "Vulnerabilities Assessment",
+    "definition": "Knowledge of the principles, methods, and tools for assessing vulnerabilities, and developing or recommending appropriate mitigation countermeasures.",
+    "category": ""
+  },
+  {
+    "name": "Web Technology",
+    "definition": "Knowledge of the principles and methods of web technologies, tools, and delivery systems, including web security, privacy policy practices, and user interface issues.",
+    "category": ""
+  },
+  {
+    "name": "Wildlife Biology",
+    "definition": "Knowledge of the concepts, principles, and theories of wildlife, including classification, taxonomy, population dynamics, distribution, habitat requirements, life histories, reproduction, behaviors, conservation, and care of wildlife.",
+    "category": ""
+  },
+  {
+    "name": "Workforce Planning",
+    "definition": "Knowledge of HR concepts, principles, and practices related to determining workload projections and current and future competency gaps to align human capital with organizational goals.",
+    "category": ""
+  },
+  {
+    "name": "Writing (*)",
+    "definition": "Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a succinct and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience.",
+    "category": ""
+  },
+  {
+    "name": "Writing (†)",
+    "definition": "Recognizes or uses correct English grammar, punctuation, and spelling; communicates information (for example, facts, ideas, or messages) in a brief, clear, and organized manner; produces written information, which may include technical material, that is appropriate for the intended audience.",
+    "category": ""
+  },
+  {
+    "name": "Written Communication",
+    "definition": "Writes in a clear, concise, organized, and convincing manner for the intended audience.",
+    "category": ""
+  }
+]
