@@ -187,10 +187,22 @@
                       v-for="occupation in paginatedList"
                       :key="occupation.code"
                       :aria-labelledby="'title-' + occupation.code"
+                      style="cursor: pointer"
+                      :style="{ backgroundColor: formValues.choice === String(occupation.code) ? '#e1f3f8' : 'white' }"
+                      @click="formValues.choice = String(occupation.code)"
                     >
-                      <td style="padding-left: 0; border: 0">
-                        <div class="usa-radio">
-                          <label>
+                      <td
+                        style="
+                          padding-left: 0;
+                          border: 0;
+                          background-color: transparent;
+                        "
+                      >
+                        <div
+                          class="usa-radio"
+                          style="background-color: transparent"
+                        >
+                          <label style="pointer-events: none">
                             <input
                               class="usa-radio__input"
                               type="radio"
@@ -206,8 +218,13 @@
                           </label>
                         </div>
                       </td>
-                      <td>{{occupation.code}}</td>
-                      <td :id="'title-' + occupation.code">
+                      <td style="background-color: transparent">
+                        {{occupation.code}}
+                      </td>
+                      <td
+                        style="background-color: transparent"
+                        :id="'title-' + occupation.code"
+                      >
                         {{occupation.title}}
                       </td>
                     </tr>

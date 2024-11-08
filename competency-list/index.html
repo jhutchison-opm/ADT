@@ -208,10 +208,24 @@
                       v-for="competency in paginatedList"
                       :key="competency.name"
                       :aria-labelledby="'title-' + competency.name"
+                      style="cursor: pointer"
+                      :style="{ backgroundColor: formValues.choice.includes(competency.name) ? '#e1f3f8' : 'white' }"
+                      @click="formValues.choice = formValues.choice.includes(competency.name) 
+                        ? formValues.choice.filter(c => c !== competency.name) 
+                        : [...formValues.choice, competency.name]"
                     >
-                      <td style="padding-left: 0; border: 0">
-                        <div class="usa-radio">
-                          <label>
+                      <td
+                        style="
+                          padding-left: 0;
+                          border: 0;
+                          background-color: transparent;
+                        "
+                      >
+                        <div
+                          class="usa-radio"
+                          style="background-color: transparent"
+                        >
+                          <label style="pointer-events: none">
                             <input
                               class="usa-checkbox__input"
                               type="checkbox"
@@ -227,11 +241,16 @@
                         </div>
                       </td>
                       <!-- <td>{{competency.category}}</td> -->
-                      <td>General</td>
-                      <td :id="'name-' + competency.name">
+                      <td style="background-color: transparent">General</td>
+                      <td
+                        style="background-color: transparent"
+                        :id="'name-' + competency.name"
+                      >
                         {{competency.name}}
                       </td>
-                      <td>{{competency.definition}}</td>
+                      <td style="background-color: transparent">
+                        {{competency.definition}}
+                      </td>
                     </tr>
                   </tbody>
                 </table>
