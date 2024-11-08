@@ -288,43 +288,6 @@
               choice: [],
             },
             competencyList: competencyList
-            // competencyList: [
-            //   {
-            //     id: "0",
-            //     name: "Administration and Management",
-            //     category: "General",
-            //     definition:
-            //       "Knowledge of planning, coordination, and execution of business functions, resource allocation, and production.",
-            //   },
-            //   {
-            //     id: "1",
-            //     name: "Arithmetic",
-            //     category: "General",
-            //     definition:
-            //       "Performs computations such as addition, subtraction, multiplication, and division correctly using whole number, fractions, decimals, and percentages.",
-            //   },
-            //   {
-            //     id: "2",
-            //     name: "Computers and Electronics",
-            //     category: "General",
-            //     definition:
-            //       "Knowledge of electric circuit boards, processors, chips, and computer hardware and software, including applications and programming.",
-            //   },
-            //   {
-            //     id: "3",
-            //     name: "Attention to Detail",
-            //     category: "General",
-            //     definition:
-            //       "Is thorough when performing work and conscientious about attending to detail.",
-            //   },
-            //   {
-            //     id: "4",
-            //     name: "Mental Visualization",
-            //     category: "Other",
-            //     definition:
-            //       "Sees things in the mind by mentally organizing and processing symbols, pictures, graphs, objects, or other information (for example, sees a building from a blueprint, or sees the flow of work activities from reading a work plan).",
-            //   },
-            // ],
           };
         },
         watch: {
@@ -375,7 +338,7 @@
             const perPage= this.pagination.perPage
             const currentPage = this.pagination.currentPage
 
-            let listCopy = [...this.competencyList];
+            let listCopy = this.competencyList;
 
             if (this.search) {
               listCopy = listCopy.filter((comp) => {

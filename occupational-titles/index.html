@@ -62,6 +62,7 @@
                       class="usa-input"
                       type="search"
                       v-model="search"
+                      autocomplete="off"
                     />
                   </div>
                 </div>
@@ -79,7 +80,7 @@
                   >
                     <option
                       v-for="(sortOption, key) in sortOptions"
-                      :key="sortOption.number"
+                      :key="sortOption.code"
                       :value="key"
                     >
                       {{sortOption.label}}
@@ -87,44 +88,126 @@
                   </select>
                 </div>
               </div>
+
+              <div>
+                <nav
+                  aria-label="Pagination"
+                  class="usa-pagination margin-top-6"
+                >
+                  <ul class="usa-pagination__list width-full">
+                    <li
+                      class="usa-pagination__item usa-pagination__arrow margin-left-0"
+                      style="justify-content: flex-start"
+                    >
+                      <button
+                        type="button"
+                        class="usa-pagination__link usa-pagination__previous-page"
+                        aria-label="Previous page"
+                        @click="pagination.currentPage = pagination.currentPage - 1"
+                        :disabled="pagination.currentPage === 1"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="m14 18l-6-6l6-6l1.4 1.4l-4.6 4.6l4.6 4.6z"
+                          />
+                        </svg>
+                        <span class="usa-pagination__link-text">Previous</span>
+                      </button>
+                    </li>
+                    <li
+                      v-for="(page, idx) in visiblePages"
+                      :key="idx"
+                      class="usa-pagination__item"
+                      :class="[page === '...' ? 'usa-pagination__overflow' : 'usa-pagination__page-no']"
+                      style="max-width: 2.5rem"
+                    >
+                      <span v-if="page === '...'">...</span>
+                      <button
+                        v-else
+                        type="button"
+                        @click="pagination.currentPage = page"
+                        class="usa-pagination__button"
+                        :class="{ 'usa-current': page === pagination.currentPage }"
+                        :aria-label="'Page ' + page"
+                      >
+                        {{ page }}
+                      </button>
+                    </li>
+                    <li
+                      class="usa-pagination__item usa-pagination__arrow margin-right-0"
+                      style="justify-content: flex-end"
+                    >
+                      <button
+                        type="button"
+                        class="usa-pagination__link usa-pagination__next-page"
+                        aria-label="Next page"
+                        @click="pagination.currentPage = pagination.currentPage + 1"
+                        :disabled="pagination.currentPage === totalPages"
+                      >
+                        <span class="usa-pagination__link-text">Next </span>
+                        <svg
+                          aria-hidden="true"
+                          xmlns="http://www.w3.org/2000/svg"
+                          width="1em"
+                          height="1em"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            fill="currentColor"
+                            d="M12.6 12L8 7.4L9.4 6l6 6l-6 6L8 16.6z"
+                          />
+                        </svg>
+                      </button>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+
               <form :action="formAction" class="margin-top-4">
                 <table class="usa-table usa-table--borderless width-full">
-                  <caption>
+                  <!-- <caption>
                     Select occupation
-                  </caption>
+                  </caption> -->
                   <thead>
                     <tr>
-                      <th></th>
-                      <th>Occupation Number</th>
-                      <th>Occupation Title</th>
+                      <th style="width: 5%; min-width: 32px; border: 0"></th>
+                      <th style="width: 20%">Occupation Number</th>
+                      <th style="width: 75%">Occupation Title</th>
                     </tr>
                   </thead>
                   <tbody>
                     <tr
-                      v-for="occupation in filteredOccupationalList"
-                      :key="occupation.number"
-                      :aria-labelledby="'title-' + occupation.number"
+                      v-for="occupation in paginatedList"
+                      :key="occupation.code"
+                      :aria-labelledby="'title-' + occupation.code"
                     >
-                      <td>
+                      <td style="padding-left: 0; border: 0">
                         <div class="usa-radio">
                           <label>
                             <input
                               class="usa-radio__input"
                               type="radio"
                               name="occupation"
-                              :id="'occupation-' + occupation.number"
-                              :value="occupation.number"
+                              :id="'occupation-' + occupation.code"
+                              :value="occupation.code"
                               v-model="formValues.choice"
                               aria-label="Select"
-                              :aria-labelledby="'title-' + occupation.number"
+                              :aria-labelledby="'title-' + occupation.code"
                               required
                             />
                             <div class="usa-radio__label"></div>
                           </label>
                         </div>
                       </td>
-                      <td>{{occupation.number}}</td>
-                      <td :id="'title-' + occupation.number">
+                      <td>{{occupation.code}}</td>
+                      <td :id="'title-' + occupation.code">
                         {{occupation.title}}
                       </td>
                     </tr>
@@ -143,23 +226,28 @@
       </div>
     </div>
 
-    <script>
+    <script type="module">
       const { createApp } = Vue;
+      import occupationList from "../occupationList.json" with { type: "json" };
 
       createApp({
         data() {
           return {
             search: "",
             sortBy: 0,
+            pagination: {
+              perPage: 10,
+              currentPage: 1
+            },
             sortOptions: [
               {
                 label: "Number (Asc)",
-                sortKey: "number",
+                sortKey: "code",
                 sortDir: "asc",
               },
               {
                 label: "Number (Desc)",
-                sortKey: "number",
+                sortKey: "code",
                 sortDir: "desc",
               },
               {
@@ -176,42 +264,63 @@
             formValues: {
               choice: null,
             },
-            occupationList: [
-              {
-                title: "Bond Sales Protection",
-                number: "0011",
-              },
-              {
-                title: "Safety & Occupational Health Management",
-                number: "0018",
-              },
-              {
-                title: "Safety Technician",
-                number: "0019",
-              },
-              {
-                title: "Community Planning",
-                number: "0020",
-              },
-              {
-                title: "Outdoor Recreation Planning",
-                number: "0021",
-              },
-            ],
+            occupationList: occupationList
           };
         },
+        watch: {
+          search(){
+            this.pagination.currentPage = 1
+          }
+        },
         computed: {
-          filteredOccupationalList() {
+          visiblePages(){
+            const pages = [];
+            const currentPage = this.pagination.currentPage;
+            const totalPages = this.totalPages;
+
+            if(totalPages <= 7){
+              for (let i = 1; i <= totalPages; i++) pages.push(i)
+            }else{
+              if(currentPage <= 4){
+                for (let i = 1; i <= 5; i++) pages.push(i)
+                pages.push('...')
+                pages.push(totalPages)
+              }else if(currentPage >= totalPages - 3){
+                pages.push(1);
+                pages.push('...');
+                for (let i = totalPages - 4; i <= totalPages; i++) pages.push(i)
+              }else{
+                pages.push(1);
+                pages.push('...');
+                for (let i = currentPage - 1; i <= currentPage + 1; i++) pages.push(i)
+                pages.push('...')
+                pages.push(totalPages)
+              }
+            }
+
+            return pages
+          },
+          totalPages(){
+            return Math.ceil(this.filteredList.length / this.pagination.perPage)
+          },
+          paginatedList(){
+            const start = (this.pagination.currentPage - 1) * this.pagination.perPage
+            const end = start + this.pagination.perPage
+            return this.filteredList.slice(start, end)
+          },
+          filteredList() {
             let lowerCaseSearch = this.search.toLowerCase();
             let sortChoice = this.sortOptions[this.sortBy];
 
-            let listCopy = [...this.occupationList];
+            let listCopy = this.occupationList;
 
             if (this.search) {
               listCopy = listCopy.filter((occ) => {
+
+                const codeString = String(occ.code)
                 return (
-                  occ.number.startsWith(lowerCaseSearch) ||
-                  occ.title.toLowerCase().startsWith(lowerCaseSearch)
+                  codeString.includes(lowerCaseSearch) ||
+                  occ.title.toLowerCase().includes(lowerCaseSearch)
                 );
               });
             }
